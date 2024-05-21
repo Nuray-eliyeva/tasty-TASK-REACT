@@ -13,10 +13,7 @@ const Home = () => {
       axios.get("http://localhost:8000/cards")
        .then(res=>setdata(res.data))
      }, [data])
-     const deleteData = function (id) {
-        axios.delete(`http://localhost:8000/cards/${id}`)
-      .then(res=>console.log(res.data))
-      }
+     
   return (
     <>
       <div className="menu">
@@ -24,7 +21,7 @@ const Home = () => {
           <div className="row ">
               <nav>
               <div className="logo"> Tasty</div>
-              <ul>
+              <ul >
                 <li>Home</li>
                 <li>Menu</li>
                 <li>Specialties</li>
@@ -32,7 +29,7 @@ const Home = () => {
                 <li>Blog</li>
                 <li>About</li>
                 <li>Contact</li>
-                <li><Link to={'/add'} className='add'>Add</Link></li>
+                <li><Link to={'/admin'} className='admin'>Admin</Link></li>
               </ul>
             </nav>
           </div>
@@ -90,7 +87,6 @@ const Home = () => {
                         </div>
                         <div>
                         <p>${item.cost}</p>
-                        <button className='btn1'  onClick={() => deleteData(item.id)}>Delete</button>
                         </div>
                     </div>
                    

@@ -1,23 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 32px;
 }
-.menu{
-   
+
+.menu {
+
     width: 100%;
     object-fit: cover;
-   background-image:url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp");
-   /* background-color: blueviolet;*/
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp");
+    /* background-color: blueviolet;*/
 }
-nav{
+
+nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,31 +29,36 @@ nav{
     align-items: center;
     color: white;
 }
-.logo{
+
+.logo {
     border: 2px solid rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
     padding: 10px 20px;
     color: white;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 25px;
     font-size: 18px;
     font-weight: bold;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: #ffb400;
     transition: 0.8s all;
 }
-.center{
+
+.center {
     padding: 200px 0;
     text-align: center;
     color: white;
     font-size: 30px;
- font-style: italic; 
+    font-style: italic;
 }
-.center .btn{
+
+.center .btn {
     border: 2px solid white;
     padding: 15px;
     background: transparent;
@@ -58,137 +66,158 @@ nav ul li:hover{
     font-size: 20px;
     margin-top: 20px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     cursor: pointer;
     transition: 0.8s all;
     color: black;
 }
 
-.form{
+.form {
     padding: 20px;
-    background-color:  #ffb400;
+    background-color: #ffb400;
     bottom: 0px;
     text-align: center;
 }
-.form input{
-border:1px solid rgb(0, 0, 0);
-background: transparent;
-padding: 15px;
-color: black;
-margin: 5px;
+
+.form input {
+    border: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    padding: 15px;
+    color: black;
+    margin: 5px;
 }
-.form button{
+
+.form button {
     padding: 20px;
     border: none;
     background-color: white;
     font-size: 16px;
     margin: 5px;
-    
+
 }
+
 /*------ABOUT--------*/
-.about-pict img{
- width: 100%;
- object-fit: cover;
+.about-pict img {
+    width: 100%;
+    object-fit: cover;
 }
-.about-txt{
+
+.about-txt {
     padding: 100px 70px;
     width: 40%;
 }
-.about-txt span, p{
+
+.about-txt span,
+p {
     color: rgb(73, 73, 73);
     font-size: 18px;
 }
-.about-txt h3{
+
+.about-txt h3 {
     font-size: 22px;
 }
+
 /*------DISCOVER----*/
-.discover{
+.discover {
     text-align: center;
     padding: 170px 0;
     background-color: rgba(211, 211, 211, 0.093);
 }
-.m-btn{
+
+.m-btn {
     border: none;
     padding: 15px 20px;
     font-size: 20px;
-    margin-right: 10px ;
+    margin-right: 10px;
     background-color: white;
     color: rgb(139, 139, 139);
-    box-shadow:  5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 }
-.btn1{
+
+.btn1 {
     border: none;
-    padding:10px 15px ;
+    padding: 10px 15px;
     font-size: 15px;
-    margin-right: 10px ;
+    margin-right: 10px;
     background-color: white;
     color: rgb(139, 139, 139);
-    box-shadow:  5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 }
-.btn2{
+
+.btn2 {
     border: 4px solid #ffb400;
     width: 200px;
-    padding:15px 20px ;
+    padding: 15px 20px;
     font-size: 16px;
-    margin-right: 10px ;
-   color: #ffb400;
-   background: transparent;
+    margin-right: 10px;
+    color: #ffb400;
+    background: transparent;
 }
-.btn2:hover{
+
+.btn2:hover {
     transition: 0.5s all;
     cursor: pointer;
     background-color: #ffb400;
     color: black;
 }
-.main-btn{
-    background-color:  #ffb400;
-    color: black; 
+
+.main-btn {
+    background-color: #ffb400;
+    color: black;
 }
-.photo{
-    width: 100px;  
+
+.photo {
+    width: 100px;
 }
-.photo img{
+
+.photo img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 9999px;
 }
 
-.s-card{
+.s-card {
     display: flex;
     padding: 20px;
     text-align: center;
     gap: 10px;
     box-shadow: 5px 5px 10px rgb(86, 85, 85);
 }
-.s-card:hover{
-    background-color:  #ffb400;
+
+.s-card:hover {
+    background-color: #ffb400;
     transition: 0.8s all;
 }
-.card-container{
+
+.card-container {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 /*------ADD-----*/
-.addpage{
-    margin:100px 350px;
+.addpage {
+    margin: 100px 350px;
     padding: 45px;
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 15px;
-    background-color:#ffb400;
+    background-color: #ffb400;
     border-radius: 10px;
 }
-.addpage input{
+
+.addpage input {
     border: none;
-   
+
 }
-.add{
-    background:transparent;
+
+.admin {
+    background: transparent;
     padding: 10px 15px;
     border-radius: 10px;
     text-decoration: none;
@@ -196,9 +225,59 @@ margin: 5px;
     border: 2px solid white;
     font-weight: bold;
 }
-.add:hover{
+
+.admin:hover {
     color: black;
     background-color: white;
     cursor: pointer;
     transition: 0.8s all;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+/*----ADMIN-----*/
+.admin-center {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.add {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+}
+
+.links {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links button {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.links input {
+    border: 1px solid black;
+
+}
+
+.td-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 9999px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
 }
