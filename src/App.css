@@ -201,7 +201,7 @@ p {
 
 /*------ADD-----*/
 .addpage {
-    margin: 100px 350px;
+    margin:0 auto;
     padding: 45px;
     display: flex;
     flex-direction: column;
@@ -231,19 +231,6 @@ p {
     background-color: white;
     cursor: pointer;
     transition: 0.8s all;
-}
-
-@media (max-width: 1024px) {
-    .menu li{
-        display: none;
-    }
-    .form button{
-        display: block;
-        margin: 0 auto;
-    }
-    .about-txt{
-        width: 100%;
-    }
 }
 
 /*----ADMIN-----*/
@@ -292,4 +279,23 @@ th,
 td {
     border: 2px solid black;
     padding: 10px;
+}
+.eror{
+    color: #ffffff;
+}
+@media (max-width: 1024px) {
+    .menu li{
+        display: none;
+    }
+    .form button{
+        display: block;
+        margin: 0 auto;
+    }
+    .about-txt{
+        width: 100%;
+    }
+    .admin-center{
+       margin: 0;
+        width: 50%;
+    }
 }

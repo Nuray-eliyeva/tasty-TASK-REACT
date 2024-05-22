@@ -15,12 +15,14 @@ export default function App() {
     <form onSubmit={handleSubmit(onSubmit)} className="addpage">
       <h3>ADD PAGE</h3>
        <label >Name</label>
-      <input  {...register("name")} />
+      <input  {...register("name", { required: true })} />
+      {errors.name && <span className="eror">This field is required</span>}
       <label >Description</label>
       <input {...register("description", { required: true })} />
+      {errors.description && <span  className="eror">This field is required</span>}
       <label >Cost</label>
-      <input  {...register("cost")} />
-      {errors.exampleRequired && <span>This field is required</span>}
+      <input  {...register("cost", { required: true })} />
+      {errors.cost && <span  className="eror">This field is required</span>}
       <input type="submit" />
     </form>
   )
