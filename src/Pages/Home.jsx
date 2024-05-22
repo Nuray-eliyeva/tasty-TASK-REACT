@@ -153,7 +153,7 @@ const Home = () => {
       <div className="head-txt"> <span>Blog</span>
       <h3 className='mb-5 mt-3'>Recent Blog</h3>
       </div>
-        <div className="col-lg-4 col-6 blog-card">
+        <div className="col-lg-4 col-md-6 col-12 blog-card">
           <div className='blog-card'>
              <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
           </div>
@@ -161,7 +161,7 @@ const Home = () => {
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos veritatis nihil laboriosam odio aspernatur nulla animi facere commodi eveniet!</p>
            <span> Read more</span>
         </div>
-        <div className="col-lg-4 col-6 blog-card">
+        <div className="col-lg-4 col-md-6 col-12 blog-card">
           <div className='blog-card'>
              <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
           </div>
@@ -169,7 +169,7 @@ const Home = () => {
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos veritatis nihil laboriosam odio aspernatur nulla animi facere commodi eveniet!</p>
            <span> Read more</span>
         </div>
-        <div className="col-lg-4 col-6 blog-card">
+        <div className="col-lg-4 col-md-6 col-12 blog-card">
           <div className='blog-card'>
              <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
           </div>
