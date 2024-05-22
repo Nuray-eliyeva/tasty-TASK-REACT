@@ -283,6 +283,43 @@ td {
 .eror{
     color: #ffffff;
 }
+/*----GUEST------*/
+.head-txt{
+    text-align: center;
+}
+.guest{
+ text-align: center;
+ padding: 130px 170px;
+ background-color: rgba(211, 211, 211, 0.175);
+}
+.guest-card{
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+.guest-card span{
+    color: rgb(141, 138, 138);
+}
+.guest img{
+    width: 125px;
+    height: 120px;
+    border-radius: 9999px;
+}
+.starts{
+    color: #ffb400;
+}
+/*----BLOG---*/
+.blog{
+    padding: 20px 150px;
+}
+.blog-card span{
+    color: rgb(160, 158, 158);
+    margin: 20px 0;
+}
+
+.img img{
+    width: 100%;
+    object-fit: cover;
+}
 @media (max-width: 1024px) {
     .menu li{
         display: none;

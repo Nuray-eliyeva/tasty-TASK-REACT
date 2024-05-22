@@ -5,6 +5,7 @@ import { LuBeef } from "react-icons/lu";
 import { ImSpoonKnife } from "react-icons/im";
 import { FaChampagneGlasses } from "react-icons/fa6";
 import axios from 'axios';
+import { FaStar } from "react-icons/fa";
 
 const Home = () => {
   const [data, setdata] = useState([])
@@ -98,9 +99,88 @@ const Home = () => {
               <button className='btn2'>Make a Reservation</button>
           </div>
         </div>
+    
+     <div className="guest">
+      <div className="container">
       </div>
+       <div className="head-txt"> <span>GUESTS SAY</span>
+      <h3 className='mb-5 mt-3'>Our Satisfied Guests say</h3>
+      </div>
+        <div className="row">
+        <div className="col-lg-4 col-md-6 col-12">
+           <div className='guest-card'>
+            <div><img src="https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=" alt="" /></div>
+            <div className="starts  mb-4 mt-4">
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis accusantium repellendus totam quaerat. Deserunt ut maiores dolorem voluptate ab.</p>
+            <h4>Dennis Green</h4>
+            <span>Guest from italy</span>
+            
+           </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-12">
+           <div className='guest-card'>
+            <div><img src="https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=" alt="" /></div>
+            <div className="starts mb-4 mt-4">
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis accusantium repellendus totam quaerat. Deserunt ut maiores dolorem voluptate ab.</p>
+            <h4>Dennis Green</h4>
+            <span>Guest from italy</span>
+           
+           </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-12">
+           <div className='guest-card'>
+            <div><img src="https://media.istockphoto.com/id/1314997483/photo/portrait-of-a-confident-mature-businessman-working-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=OxN-O2qe4LbgYuOnp_VkgXOV5p7CDC_uWja9iWFM-OA=" alt="" /></div>
+            <div className="starts  mb-4 mt-4">
+            <FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque omnis accusantium repellendus totam quaerat. Deserunt ut maiores dolorem voluptate ab.</p>
+            <h4>Dennis Green</h4>
+            <span>Guest from italy</span>
+           
+           </div>
+          </div>
 
+      
+        </div>
+      </div>
+     </div>
   
+  <div className="blog">
+    <div className="container">
+      <div className="row">
+
+      <div className="head-txt"> <span>Blog</span>
+      <h3 className='mb-5 mt-3'>Recent Blog</h3>
+      </div>
+        <div className="col-lg-4 col-6 blog-card">
+          <div className='blog-card'>
+             <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
+          </div>
+           <span>july8, 2018-Admin</span>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos veritatis nihil laboriosam odio aspernatur nulla animi facere commodi eveniet!</p>
+           <span> Read more</span>
+        </div>
+        <div className="col-lg-4 col-6 blog-card">
+          <div className='blog-card'>
+             <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
+          </div>
+           <span>july8, 2018-Admin</span>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos veritatis nihil laboriosam odio aspernatur nulla animi facere commodi eveniet!</p>
+           <span> Read more</span>
+        </div>
+        <div className="col-lg-4 col-6 blog-card">
+          <div className='blog-card'>
+             <div className="img"><img src="https://media.cnn.com/api/v1/images/stellar/prod/211006114703-best-meal-delivery-service-freshly.jpg?q=w_1601,h_900,x_0,y_0,c_fill" alt="" /></div>
+          </div>
+           <span>july8, 2018-Admin</span>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos veritatis nihil laboriosam odio aspernatur nulla animi facere commodi eveniet!</p>
+           <span> Read more</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
     
     </>
   )
