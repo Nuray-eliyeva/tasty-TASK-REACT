@@ -18,11 +18,20 @@ const Admin = () => {
   }
 //---------------SORT-----------
   const sortData = function () {
-   return setdata([...data].sort((a, b) => a.cost - b.cost))
+   if(selectValue=='a-z'){
+    return data.toSorted((a,b)=>a.name.localeCompare(b.name))
+   }
+   else if(selectValue=='z-a'){
+    return data.toSorted((a,b)=>b.name.localeCompare(a.name))
+   }
+   else{
+    return[...data]
+   }
   }
+  let sortedData=sortData()
 
   //-----FILTER-----
-  const filteredData = data.filter(item => {
+  const filteredData =sortedData.filter(item => {
     return item.name.toLowerCase().startsWith(search.toLowerCase()
   )
   });

@@ -29,7 +29,7 @@ const Home = () => {
                 <li>Blog</li>
                 <li>About</li>
                 <li>Contact</li>
-                <li><Link to={'/admin'} className='admin'>Admin</Link></li>
+                <Link to={'/admin'} className='admin'>Admin</Link>
               </ul>
             </nav>
           </div>
@@ -52,7 +52,7 @@ const Home = () => {
       <div className="about">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-12 about-pict ">
+            <div className="col-lg-6  col-12 about-pict ">
               <img src="https://nationaltoday.com/wp-content/uploads/2021/07/shutterstock_1518533924-min.jpg" alt="" />
             </div>
             <div className="col-lg-6 col-12 about-txt">

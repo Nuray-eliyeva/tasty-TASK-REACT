@@ -13,9 +13,8 @@
 }
 
 .menu {
-
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp");
     /* background-color: blueviolet;*/
 }
@@ -92,7 +91,7 @@ nav ul li:hover {
 .form button {
     padding: 20px;
     border: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-size: 16px;
     margin: 5px;
 
@@ -101,6 +100,7 @@ nav ul li:hover {
 /*------ABOUT--------*/
 .about-pict img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -233,9 +233,16 @@ p {
     transition: 0.8s all;
 }
 
-@media (max-width: 768px) {
-    .menu {
+@media (max-width: 1024px) {
+    .menu li{
         display: none;
+    }
+    .form button{
+        display: block;
+        margin: 0 auto;
+    }
+    .about-txt{
+        width: 100%;
     }
 }
 
@@ -243,18 +250,23 @@ p {
 .admin-center {
     width: 60%;
     margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .add {
     color: white;
     background-color: black;
     padding: 10px 15px;
+    text-decoration: none;
 }
 
 .links {
-    border: 2px solid black;
+    border: 4px solid black;
     display: flex;
     justify-content: space-between;
+    width: 90%;
 }
 
 .links button {
